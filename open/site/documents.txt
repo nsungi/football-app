@@ -1,0 +1,14 @@
+
+this applies if the system fails to build graddle
+distributionUrl=https\://services.gradle.org/distributions/gradle-7.4-all.zip
+
+to run offline
+flutter run --dart-define=flutter.gradle.Offline=true
+
+but after running offline 
+flutter clean
+
+then 
+flutter run
+
+
